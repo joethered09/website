@@ -39,30 +39,14 @@
 // Grayscale and brand colors for use across Bootstrap.
 
 // background colors
-// $slate: #253238;
 $slate: #1D3339;
 $cool-slate: #212e33;
 $dark-slate: #272727;
-// $warm-slate: #2A2E2E;
-// $dark-blue-slate: #2A3439;
-// $other-dark-blue-slate: #2D3A40;
-// $med-blue-slate: #40515D;
-// $light-blue-slate: #A1B2BC;
 
-// $text: #ABCAD6;
-$text: $slate;
-$background-text: #657780;
+// colors
 
-// brand colors
-// $tope: #e6c339;
-// $yellow: #eba434;
 $teal: #00a694;
-// $green: #88c21d;
-// $blue: #3578ff;
-// $orange: #cfc6b4;
-// $purple: #643dd9;
 $magenta: #eb1594;
-// $red: #ef3a61;
 $green: #698736;
 $blue: #78CCEE;
 $purple: #B681D1;
@@ -70,6 +54,10 @@ $red: #EE4360;
 $yellow: #E9B354;
 $orange: #E67B5B;
 $tope: #CED1BD;
+
+// $yellow: #eba434;
+// $green: #88c21d;
+// $red: #ef3a61;
 
 // $tope: #e6c339;
 // $yellow: #ccb00a;
@@ -87,15 +75,19 @@ $gray-light:                #818a91 !default;
 $gray-lighter:              #eceeef !default;
 $gray-lightest:             #f7f7f9 !default;
 
+// brand colors
+$text: $slate;
+$background-text: #657780;
+
+$dark-bg:                   #2A2E2E !default;
+$border-color:              $slate !default;
+
 $brand-primary:             $slate !default;
 $brand-inverse:             $slate !default;
 $brand-success:             $green !default;
 $brand-info:                $purple !default;
 $brand-warning:             $yellow !default;
 $brand-danger:              $red !default;
-
-$dark-bg:                   #2A2E2E !default;
-$border-color:              $slate !default;
 
 
 // Options
@@ -474,6 +466,7 @@ $custom-file-text: (
 
 
 // Form validation icons
+
 $form-icon-success: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%235cb85c' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3E%3C/svg%3E") !default;
 $form-icon-warning: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23f0ad4e' d='M4.4 5.324h-.8v-2.46h.8zm0 1.42h-.8V5.89h.8zM3.76.63L.04 7.075c-.115.2.016.425.26.426h7.397c.242 0 .372-.226.258-.426C6.726 4.924 5.47 2.79 4.253.63c-.113-.174-.39-.174-.494 0z'/%3E%3C/svg%3E") !default;
 $form-icon-danger: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23d9534f' viewBox='-2 -2 7 7'%3E%3Cpath stroke='%23d9534f' d='M0 0l3 3m0-3L0 3'/%3E%3Ccircle r='.5'/%3E%3Ccircle cx='3' r='.5'/%3E%3Ccircle cy='3' r='.5'/%3E%3Ccircle cx='3' cy='3' r='.5'/%3E%3C/svg%3E") !default;
@@ -574,7 +567,6 @@ $pagination-padding-y-sm:             .275rem !default;
 $pagination-padding-x-lg:             1.5rem !default;
 $pagination-padding-y-lg:             .75rem !default;
 
-
 $pagination-color:                     $link-color !default;
 $pagination-bg:                        #fff !default;
 $pagination-border-width:              $border-width !default;
@@ -622,6 +614,7 @@ $state-danger-border:            darken($state-danger-bg, 5%) !default;
 
 
 // Cards
+
 $card-spacer-x:            1.25rem !default;
 $card-spacer-y:            .75rem !default;
 $card-border-width:        1px !default;
