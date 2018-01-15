@@ -1,3 +1,9 @@
+# OS X sorry
 .DS_Store
+
+# Node Dependencies
 node_modules
+
+# Build Directories
 public
+static/css/*

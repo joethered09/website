@@ -1,13 +1,13 @@
 {
-  "name": "qri",
-  "version": "1.0.0",
-  "description": "qri theme for hugo",
+  "name": "datatogether",
+  "version": "0.5.0",
+  "description": "datatogether theme for hugo",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Data Together",
+  "license": "AGPLv3",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-sass": "^2.3.2"
