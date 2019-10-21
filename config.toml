@@ -8,34 +8,8 @@ languageCode = "en-us"
 defaultContentLanguage = "en"
 publishDir = "docs"
 
-[menu]
-
-  [[menu.main]]
-  identifier = "about"
-  name = "about"
-  url = "/about/"
-
-  [[menu.main]]
-  identifier = "reading"
-  name = "reading"
-  url = "/reading/"
-
-  [[menu.main]]
-  identifier = "blog"
-  name = "blog"
-  url = "/blog/"
-
-  [[menu.main]]
-  identifier = "media"
-  name = "media"
-  url = "/media/"
-
-  [[menu.main]]
-  identifier = "join"
-  name = "join"
-  url = "/join/"
-
 [params]
+  logo = "images/logo.svg"
   domain = "datatogether.github.io"
   author = "Data Together"
   title = "Data Together"
@@ -68,3 +42,34 @@ publishDir = "docs"
   URL = "plugins/slick/slick.min.js"
   [[params.plugins.js]]
   URL = "plugins/shuffle/shuffle.min.js"
+
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  identifier = "reading"
+  name = "reading"
+  url = "/reading/"
+
+  [[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  url = "/blog/"
+
+  [[menu.main]]
+  identifier = "media"
+  name = "media"
+  url = "/media/"
+
+  [[menu.main]]
+  identifier = "join"
+  name = "join"
+  url = "/join/"
+
+[params.footer]
+  twitter = "@data_together"
+  github = "datatogether"

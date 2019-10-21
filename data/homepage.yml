@@ -2,29 +2,26 @@
 banner:
   title : "Exploring<br /> Community-Driven<br /> Data Stewardship"
   socialLinks:
-    - icon : "ti-facebook"
-      URL : "#"
-      
-    - icon : "ti-instagram"
-      URL : "#"
-      
-    - icon : "ti-dribbble"
-      URL : "#"
+
+    - icon : "ti-github"
+      URL : "https://github.com/datatogether"
       
     - icon : "ti-twitter"
-      URL : "#"
+      URL : "https://twitter.com/data_together"
 
 # about
 about:
   enable : true
-  content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
+  content : "We examine models for distributed stewardship of data through community-led reading and discussion groups.
+
+  Our conversations aim to decompose how decentralized and peer-to-peer web infrastructure can enable communities to access, discover, verify, and preserve data they care about. "
   button:
-    btnText : "know more"
-    URL : "/about"
+    btnText : "Join The Reading Group"
+    URL : "/join"
 
 # skill
 skill:
-  enable : true
+  enable : false
   skillbar:
     - title : "Web Design"
       progress : "90%"
@@ -44,7 +41,7 @@ skill:
 
 # experience
 experience:
-  enable : true
+  enable: false
   item: 
     - logo : "images/experience/icon-1.png"
       title : "Junior UX Designer"
@@ -61,29 +58,9 @@ experience:
       company : "THEMEFISHER"
       duration : "Sep 2014 - Present"
 
-# education
-education:
-  enable : true
-  item:
-    - title : "Marters in UX Design"
-      year : "2006"
-      academy : "Masassusets Institute of Technology"
-      
-    - title : "Honours in Fine Arts"
-      year : "2004"
-      academy : "Harvard University"
-      
-    - title : "Higher Secondary Certificat"
-      year : "2000"
-      academy : "Cardiff School"
-      
-    - title : "Secondary School Certificate"
-      year : "1998"
-      academy : "Cardiff School"
-
 # service
 service:
-  enable : true
+  enable: false
   item : 
     - title : "UI Design"
       icon : "ti-palette"
@@ -102,7 +79,7 @@ service:
 
 # portfolio
 portfolio:
-  enable : true
+  enable : false
   item:
     - image : "images/portfolio/item-1.png"
       projectURL : "#"
@@ -121,7 +98,7 @@ portfolio:
 
 # testimonial
 testimonial:
-  enable : true
+  enable: false
   item:
     - name : "Jesica Gomez"
       image : "images/testimonial/client-1.png"
@@ -140,7 +117,7 @@ testimonial:
 
 # client slider
 clientSlider:
-  enable : true
+  enable: false
   item:
     - logo : "images/clients-logo/client-logo-1.png"
       URL : "#"
@@ -175,3 +152,23 @@ clientSlider:
 # blog
 blog:
   enable : true
+
+# talks
+talks:
+  enable : false
+  item:
+    - title : "Marters in UX Design"
+      year : "2006"
+      academy : "Masassusets Institute of Technology"
+      
+    - title : "Honours in Fine Arts"
+      year : "2004"
+      academy : "Harvard University"
+      
+    - title : "Higher Secondary Certificat"
+      year : "2000"
+      academy : "Cardiff School"
+      
+    - title : "Secondary School Certificate"
+      year : "1998"
+      academy : "Cardiff School"
