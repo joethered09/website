@@ -1,15 +1,41 @@
 baseURL = "https://datatogether.github.io/"
 title = "Data Together"
-theme = "datatogether"
+theme = "kross"
 
 metaDataFormat = "toml"
-relativeURLs = true
+# relativeURLs = true
 languageCode = "en-us"
 defaultContentLanguage = "en"
 publishDir = "docs"
 
+[menu]
+
+  [[menu.main]]
+  identifier = "about"
+  name = "about"
+  url = "/about/"
+
+  [[menu.main]]
+  identifier = "reading"
+  name = "reading"
+  url = "/reading/"
+
+  [[menu.main]]
+  identifier = "blog"
+  name = "blog"
+  url = "/blog/"
+
+  [[menu.main]]
+  identifier = "media"
+  name = "media"
+  url = "/media/"
+
+  [[menu.main]]
+  identifier = "join"
+  name = "join"
+  url = "/join/"
+
 [params]
-  # ExtraCssFiles = [ "/css/override.css" ] # In your `static/css`, add/remove files as necessary.
   domain = "datatogether.github.io"
   author = "Data Together"
   title = "Data Together"
@@ -21,3 +47,24 @@ publishDir = "docs"
   cacheBuster = true
   dateForm = "Jan 2, 2006"
   dateFormFull = "Mon Jan 2 2006 15:04:05 MST"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "plugins/bootstrap/bootstrap.min.css"
+  [[params.plugins.css]]
+  URL = "plugins/slick/slick.css"
+  [[params.plugins.css]]
+  URL = "plugins/themify-icons/themify-icons.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "plugins/jQuery/jquery.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/bootstrap/bootstrap.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/slick/slick.min.js"
+  [[params.plugins.js]]
+  URL = "plugins/shuffle/shuffle.min.js"

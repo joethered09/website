@@ -3,7 +3,6 @@ title: "Discussion: Civics (May 2019)"
 tagline: "A Data Together 2019 Reading Group Discussion'"
 date: 2019-06-05T18:00:00-04:00
 draft: false
-menu: main
 authors: ["Kelsey Breseman", "Data Together"]
 ---
 
