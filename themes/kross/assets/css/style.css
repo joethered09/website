@@ -860,6 +860,15 @@ blockquote {
   bottom: -100px
 }
 
+.page-title-short {
+  padding: 200px 0 50px
+}
+
+.page-title-short .container {
+  position: relative;
+  z-index: 1
+}
+
 .filter-controls li {
   cursor: pointer
 }

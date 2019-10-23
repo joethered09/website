@@ -221,10 +221,11 @@
         <div class="col-12 text-center">
           <h2 class="section-title">Blog</h2>
         </div>
-        {{ range first 3 .Data.Pages }}
+        {{ $pages := where site.RegularPages "Type" "in" site.Params.mainSections }}
+        {{ range first 10 $pages }}
         <div class="col-lg-4 col-sm-6 mb-4">
           <article class="card shadow">
-            <img class="rounded card-img-top" src="{{.Params.Image | absURL}}" alt="post-thumb">
+            <!-- <img class="rounded card-img-top" src="{{.Params.Image | absURL}}" alt="post-thumb"> -->
             <div class="card-body">
               <h4 class="card-title"><a class="text-dark" href="{{.Permalink}}">{{.Title }}</a>
               </h4>

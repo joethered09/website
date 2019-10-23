@@ -2,7 +2,6 @@
 title: "Data. Together. Let's read about it!"
 date: 2019-10-20T18:00:00-04:00
 draft: false
-menu: main
 ---
 
 ## Join Us 
